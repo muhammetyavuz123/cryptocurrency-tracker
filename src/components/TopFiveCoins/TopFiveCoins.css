@@ -1,0 +1,19 @@
+.topFiveCoins__holder {
+  margin: 0px 0 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #20304c;
+  padding: 15px 0 15px 0;
+  color: #f9ffff;
+}
+.topFiveCoins__holder-header {
+  color: #fff;
+  opacity: 0.85;
+}
+
+.topFiveCoins {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Rubik:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #0c1a32;
+  /* background: linear-gradient(
+    180deg,
+    rgba(83, 94, 127, 1) 0%,
+    rgba(47, 58, 86, 1) 100%
+  ); */
+  color: #f9ffff;
+  height: 100vh;
+}
+.app_bottom {
+  display: flex;
+  justify-content: center;
+}
+.app_bottom--left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+}
+.app_bottom--center {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  margin: 0 20px;
+}
+.app_bottom--right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+}
+
+@media (max-width: 800px) {
+  .app_bottom {
+    flex-direction: column;
+  }
+}

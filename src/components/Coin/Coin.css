@@ -1,0 +1,72 @@
+.coin {
+  position: relative;
+  min-width: 220px;
+  max-width: 320px;
+  color: #f9ffff;
+  background: #0c1a32;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.coin__image {
+  height: 40px;
+  width: 40px;
+  align-self: center;
+  justify-self: center;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.coin__identifier {
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.coin__symbol {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #8daac6;
+  padding-bottom: 5px;
+}
+.coin__header {
+  color: #ffffff;
+  opacity: 0.85;
+  font-size: 16px;
+}
+.coin__current-price {
+  color: #ffffff;
+  opacity: 0.85;
+  position: absolute;
+  left: 0px;
+  bottom: 5px;
+}
+.coin__pricing {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+.coin__pricing-header {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #8daac6;
+  padding-bottom: 5px;
+}
+.coin-percent__green {
+  color: #1bc5bd;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.coin-percent__red {
+  color: #f64e60;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.coin-percent__arrow {
+  font-size: 16px;
+}

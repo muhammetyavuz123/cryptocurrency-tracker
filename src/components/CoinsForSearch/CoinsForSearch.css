@@ -1,0 +1,49 @@
+.searchforCoin__holder {
+  color: #f9ffff;
+  background-color: #20304c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0 15px 0;
+  margin: 0px 0 20px;
+}
+.searchforCoin__holder-header {
+  color: #f9ffff;
+  opacity: 0.85;
+}
+form {
+  margin: 10px 0;
+}
+.coin__search {
+  color: #0c1a32;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 13px;
+
+  opacity: 0.85;
+  margin: 5px 0;
+  width: 200px;
+}
+.searchforCoin__Coin-holder {
+  overflow-y: scroll;
+  max-height: 220px;
+  padding: 5px;
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  border-radius: 3px;
+  width: 90%;
+}
+.searchforCoin__Coin-holder::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+
+.searchforCoin__Coin-holder::-webkit-scrollbar-track {
+  background: #17b78c; /* color of the tracking area */
+}
+
+.searchforCoin__Coin-holder::-webkit-scrollbar-thumb {
+  background-color: #0c1a32; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid #17b78c; /* creates padding around scroll thumb */
+}

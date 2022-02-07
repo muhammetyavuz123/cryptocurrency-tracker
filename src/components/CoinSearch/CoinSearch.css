@@ -1,0 +1,50 @@
+.coinSearchCoin {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0c1a32;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.coinSearchCoin__image-holder {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+}
+.coinSearchCoin__image {
+  height: 25px;
+  width: 25px;
+}
+.coinSearchCoin__current-name {
+  font-family: "IBM Plex Sans", sans-serif;
+  flex: 0.25;
+  text-align: left;
+  margin-right: 10px;
+}
+.coinSearchCoin__current-price {
+  flex: 0.25;
+  text-align: left;
+}
+
+.coinSearchCoin__pricing {
+  flex: 0.25;
+}
+
+.coinSearchCoin-percent__green {
+  color: #1bc5bd;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.coinSearchCoin-percent__red {
+  color: #f64e60;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 400px) {
+}
